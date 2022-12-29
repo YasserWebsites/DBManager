@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Righteous&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*body {
+    background-color: #1a1a1a;
+    color: white;
+}*/
+
+.Header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    /*background-image: url(""); I tired of trying to find some good background*/
+    background-size: cover;
+    font-family: 'Andika', sans-serif;
+    padding: 80px;
+    height: 60vh;
+}
+
+.Header h1 {
+    font-size: 5vw;
+    padding: 20px;
+}
+
+.Header p {
+    font-size: 1.5vw;
+    padding: 30px;
+}
+
+.Header button {
+    background-color: #008000;
+    color: white;
+    font-size: 2vw;
+    border-radius: 10px;
+    padding: 10px 26px;
+    border: 0;
+}
+
+.Header button p {
+    padding: 0;
+    font-size: 12px;
+}
+
+.Header button:hover {
+    background-color: #04b304;
+}
+
+.Box {
+    padding: 20px;
+    display: flex;
+}
+
+.Box .image {
+    background-color: #050505;
+    padding: 10px;
+}
+
+.info {
+    background-color: #050505;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.info h4 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.InfoBox {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.InfoBox h2 {
+    font-family: 'Righteous', cursive;
+    font-size: 5vh;
+    padding: 30px 0;
+}
+
+.InfoBox p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vh;
+}
+
+.Requirements {
+    padding: 20px;
+    display: flex;
+}
+
+.Requirements .RequirementBox {
+    padding: 20px;
+}
+
+.Requirements .RequirementBox h3 {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.Requirements .RequirementBox ul {
+    padding: 20px;
+    font-family: 'Andika', sans-serif;
+}
+
+.Requirements .line {
+    height: 100%;
+    border-right: 2px solid black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
