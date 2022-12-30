@@ -68,6 +68,10 @@
         document.onkeypress = function(key) {
             document.location.href = "https://dbmanager.ml/"
         }
+
+        document.onselectstart = function() {
+            return false;
+        }
     </script>
     </body>
 </html>
