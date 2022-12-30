@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>DB Manager | 404 Error.</title>
+        <style>
+            body {
+                background-color: black;
+            }
+
+            .text {
+                font-size: 14px;
+            }
+
+            .text .r {
+                color: #ff0000;
+            }
+
+            .text .cyan {
+                color: #00ffff;
+            }
+
+            .text .gold {
+                color: rgb(255, 215, 0);
+            }
+
+            .text .white {
+                color: #fff;
+            }
+
+            .text .cursor {
+                color: #0f0;
+            }
+        </style>
+    </head>
+    <body>
+        <pre>
+            <span class="text">
+                <span class="r">                
+
+ ██████╗ ██████╗     ███╗   ███╗ █████╗ ███╗   ██╗ █████╗  ██████╗ ███████╗██████╗
+ ██╔══██╗██╔══██╗    ████╗ ████║██╔══██╗████╗  ██║██╔══██╗██╔════╝ ██╔════╝██╔══██╗
+ ██║  ██║██████╔╝    ██╔████╔██║███████║██╔██╗ ██║███████║██║  ███╗█████╗  ██████╔╝
+ ██║  ██║██╔══██╗    ██║╚██╔╝██║██╔══██║██║╚██╗██║██╔══██║██║   ██║██╔══╝  ██╔══██╗
+ ██████╔╝██████╔╝    ██║ ╚═╝ ██║██║  ██║██║ ╚████║██║  ██║╚██████╔╝███████╗██║  ██║
+ ╚═════╝ ╚═════╝     ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝
+</span><span class="cyan">
+                              Created by yasserprogamer</span><span class="gold">
+                                     Web Version</span>
+
+<span class="r">[!] Page not found or invalid.</span>
+
+<span class="white">Press any key to go to home page . . . </span><span id="cursor" class="cursor">|</span>
+            </span>
+        </pre>
+    <script>
+        var Cursor = document.getElementById("cursor");
+        var Transparent = false;
+        setInterval(() => {
+            if(Transparent){
+                Cursor.style.color = "#0f0";
+                Transparent = false;
+            } else {
+                Cursor.style.color = "transparent";
+                Transparent = true;
+            }
+        }, 300);
+
+        document.onkeypress = function(key) {
+            document.location.href = "https://dbmanager.ml/"
+        }
+    </script>
+    </body>
+</html>
