@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Andika&family=Righteous&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
 
 * {
     margin: 0;
@@ -13,22 +14,24 @@
 
 .Header {
     text-align: center;
-    background-color: black;
+    background-color: rgb(6, 6, 7);
     color: white;
     /*background-image: url(""); I tired of trying to find some good background*/
     background-size: cover;
-    font-family: 'Andika', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     padding: 80px;
     height: 60vh;
 }
 
 .Header h1 {
-    font-size: 5vw;
+    font-size: 70px;
+    font-weight: 700;
     padding: 20px;
 }
 
 .Header p {
-    font-size: 1.5vw;
+    font-size: 24px;
+    font-weight: 200;
     padding: 30px;
 }
 
@@ -51,7 +54,7 @@
 }
 
 .Box {
-    background-color: #050505;
+    /*background-color: #050505;*/
     padding: 20px;
     display: flex;
 }
@@ -63,27 +66,28 @@
 }
 
 .info {
-    background-color: #050505;
-    color: white;
-    padding: 20px;
+    /*background-color: #050505;*/
+    color: #070336;
+    padding: 60px 0;
     width: 100%;
 }
 
 .info h4 {
     font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     padding: 20px 0;
 }
 
 .info p {
     font-size: 20px;
     font-family: 'Inter', sans-serif;
-    width: 90%;
+    width: 70%;
     padding: 10px 0;
 }
 
 .InfoBox {
-    padding: 50px;
+    padding: 100px 20px;
+    color: #070336;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,14 +95,58 @@
 }
 
 .InfoBox h2 {
-    font-family: 'Righteous', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 5vh;
     padding: 30px 0;
 }
 
 .InfoBox p {
     font-family: 'Roboto', sans-serif;
-    font-size: 2vh;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.InfoBox .Suggest {
+    margin: 20px 0;
+    padding: 14px 40px 16px;
+    color: #070336;
+    background-color: rgb(231, 209, 8);
+    border-radius: 10px;
+    font-size: 24px;
+    border: 0;
+}
+
+.InfoBox .Suggest:hover {
+    background-color: rgb(255, 230, 0);
+}
+
+.GitHubBox {
+    margin: 20px 0;
+    background-color: #f5f1f1;
+    border-radius: 20px;
+    padding: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.GitHubBox h3 {
+    font-size: 30px;
+}
+
+.image {
+    margin: 40px 0;
+    padding: 40px;
+    background-color: #f5f1f1;
+    border-radius: 20px;
+}
+
+.image:hover {
+    background-color: #f1e9e9;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 
 .Requirements {
@@ -127,9 +175,11 @@
 }
 
 footer {
-    background-color: black;
-    color: white;
-    padding: 20px;
+    background-color: rgb(250, 247, 247);
+    color: #070336;
+    padding: 30px 10px;
+    border-radius: 40px 40px 0 0;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
 }
