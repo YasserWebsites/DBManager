@@ -191,3 +191,45 @@ footer {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
 }
+
+.PrivacyPolicyHeader {
+    padding: 120px 20px;
+    color: #070336;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.PrivacyPolicyHeader h1 {
+    padding: 40px 0;
+    font-size: 8vh;
+}
+
+.PrivacyPolicyHeader p {
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.PrivacyPolicyText {
+    color: #070336;
+    padding: 20px 100px 100px 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.PrivacyPolicyText h2 {
+    font-size: 5.4vh;
+    padding: 40px 0 10px 0;
+}
+
+.PrivacyPolicyText h3 {
+    font-size: 4vh;
+    padding: 20px 0 10px 0;
+}
+
+.PrivacyPolicyText p {
+    padding: 8px 0;
+    font-size: 23px;
+}
